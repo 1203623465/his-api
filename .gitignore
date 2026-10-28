@@ -1,0 +1,29 @@
+# ===== 构建产物 =====
+bin/
+obj/
+publish/
+*.nupkg
+
+# ===== Visual Studio / IDE =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== 日志 =====
+logs/
+*.log
+
+# ===== 本地敏感配置（含真实数据库密码，切勿提交）=====
+appsettings.Development.json
+appsettings.Production.json
+
+# ===== AI 工具 =====
+.claude/
+.codebuddy/
+
+# ===== 其他 =====
+publish.rar
+.DS_Store
+Thumbs.db
